@@ -1,0 +1,78 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  padding: 5px;
+}
+
+.wrp{
+  display: flex;
+  justify-content: center;
+}
+
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin: 20px 0 20px 0;
+}
+
+.title {
+  margin-left: 20px;
+}
+.title{font-size: 30px;
+font-weight: bold;
+}
+.points {list-style: none;}
+.subtitle{font-size: 20px;}
+
+.country{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.country img {
+  width: 100px;
+  height: 50px;
+}
+
+.info{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.points-list{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px dashed grey;
+}
+
+.points{
+  border: 1px solid grey;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+ol{display: flex;
+align-items: center;
+}
+
+.country-info {
+  width: 500px;
+  
+}

@@ -1,0 +1,22 @@
+
+	<ul class="points">
+		<li class="country points-list">
+			<img src="{{flag}}" alt="{{name}}">
+			<h1 class="title">{{name}}</h1>
+		</li>
+		<li class="points-list">
+			<h2 class="subtitle">Capital:</h2>
+			<span class="info">{{capital}}</span>
+		</li>
+		<li class="points-list">
+			<h2 class="subtitle">Population:</h2>
+			<span class="info">{{population}}</span>
+		</li>
+		<li class="points-list">
+			<h2 class="subtitle">Languages:</h2>
+			<ol>
+			{{#each languages}}<li class="info">{{this.name}}</li>{{/each}}
+			</ol>
+		</li>
+	</ul>
+
